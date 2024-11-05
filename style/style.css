@@ -1,21 +1,26 @@
 .hero {
     display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
+    /* justify-content: space-between; */
+    /* margin: 0 auto; */
+    background-color: cadetblue;
+    width: 100%;
 }
 
 
-.hero {
+div.hero-heading {
     width: 50%;
-    /* float: left; */
+    float: left;
    }
    
-   .hero-image {
+div.hero-image {
        width: 50%;
-       /* float: right; */
+       float: right;
    }
 
-
+.hero button {
+    background-color: bisque;
+    
+}
 
 
 .article-cards {
@@ -32,24 +37,127 @@ ul {
     list-style-type: none;
   }
   
-  
+ .row2 {
+    background-color: darkgray;
+ } 
   
 
 
 div.card-body1{
-    border: solid;
+    
     width: 50%;
     float:left;
+    padding-left: 100px;
 
 }
 
 div.card-body2{
-    border: solid;
+    
     width: 50%;
     float: right;
+    padding-left: 100px;
 
 }
 
-.topics {
+.card-body1 img.card-img-top1 {
+    width: 75%;
+    height: 530px;
+   
+}
 
+.card-body2 img.card-img-top2 {
+    width: 75%;
+    height: 530px;
+   
+}
+.topics {
+    display: flex;
+    justify-content: space-around;
+    justify-content: wrap;
+    background-color:  palevioletred;
+}
+
+.topics2 {
+    display: flex;
+    justify-content: wrap;
+    justify-content: space-between;
+}
+
+div.link1 {
+    width: 25%;
+    margin-left: auto;
+
+}
+
+div.link2 {
+    width: 25%;
+    margin-left: auto;
+}
+
+div.link3 {
+    width: 25%; 
+    margin-right: auto;
+    
+}
+div.link4 {
+    width: 25%; 
+    margin-right: auto;
+    
+}
+
+.top-reads {
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+    /* justify-content: center;
+    align-self: center; */
+    /* justify-content: space-around;
+    justify-content: wrap; */
+    background-color: bisque;
+}
+
+
+ul li.link5 {
+    /* width: 25%; */
+    /* margin-left: auto; */
+
+}
+
+ul li.link6 {
+    width: 25%;
+    /* margin: 0 auto; */
+}
+
+ul li.link7 {
+    width: 25%; 
+    /* margin: auto; */
+    
+}
+ul li.link8 {
+    width: 25%; 
+    /* margin-right: auto; */
+    
+}
+
+img.vitaminc {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+img.concealer {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+img.ends {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+img.apres {
+    width:25%;
+    width: 300px;
+    height: 300px;
 }
