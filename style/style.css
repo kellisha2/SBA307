@@ -1,0 +1,55 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.hero {
+    width: 50%;
+    /* float: left; */
+   }
+   
+   .hero-image {
+       width: 50%;
+       /* float: right; */
+   }
+
+
+
+
+.article-cards {
+   
+    /* width: 1000px; */
+    /* height: 1000px; */
+    display: flex;
+    justify-content: space-around;
+    justify-content: wrap;
+    
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+  
+  
+
+
+div.card-body1{
+    border: solid;
+    width: 50%;
+    float:left;
+
+}
+
+div.card-body2{
+    border: solid;
+    width: 50%;
+    float: right;
+
+}
+
+.topics {
+
+}
