@@ -226,3 +226,23 @@ div.footer-links{
 
 }
 
+
+/* skin css */
+table {
+    transition-duration: .5s;
+}
+
+table:hover{
+    transform: translateX(100px);
+}
+
+/* user login css */
+
+.card-link2 {
+    transition-property: font-size;
+    transition-duration: 4s;
+}
+
+.card-link2:hover{
+    font-size: 30px;
+}
