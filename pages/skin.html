@@ -9,6 +9,60 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="/style/style.css" />
+    <style>
+      
+        
+      
+
+      body{
+        
+        box-shadow: border-box;
+
+      }
+
+      .firstSection {
+        padding-left: 200px;
+        background-color:antiquewhite;
+      }
+
+      table {
+        margin: 0;
+        padding: 0;
+        width: 600px;
+        box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+        
+      }
+
+      table, td, th {
+        padding: 20px;
+        border: 1px solid lightgray;
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      td {
+        font-size: 18px;
+      }
+
+      th {
+        background-color: darkseagreen;
+        color: white;
+      }
+
+      tr:nth-child(odd){
+        background-color: darkseagreen;
+      }
+
+      .details {
+        background-color: lavender;
+        padding-left: 200px;
+      }
+
+      .firstSection {
+        margin-bottom: 0px;
+      }
+     
+    </style>
 </head>
 <body>
     <div class="navigation">
@@ -24,22 +78,22 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="/pages/skin.html">Featured</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                      Topics
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Skincare</a></li>
+                      <li><a class="dropdown-item" href="#">Makeup</a></li>
+                      <li><a class="dropdown-item" href="#">Hair</a></li>
+                      <li><a class="dropdown-item" href="#">Nails</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
+                 
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -48,13 +102,15 @@
               </div>
             </div>
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAArhJREFUSEu1lUnIT2EUxn8fdoYsZPjMbEzFZ542IgtKFAoLpD4Zig1lnikUFkohU0lImRdkY4jMc8ocIkpENsJ5vs6r977+9/5t/m/dbvfe97zPeZ7znHOrqPCqqvD5lAOoB4wG+gM1QF9P6AZwG7gKnAV+5SVaBNAeOAgMLsPyCjAZeFVqXx7ADGAb0BC4BuwDHgEP/ZAeQDdgGtAP+A7MA3anIKUApgJ7gZ92LTWQTQUSSMJFduhKoAGg2P0xSArQDngANAKGAqKv1cauXcAgf74EzATe+PMQ4CLwzZmF95kiC0wHDgTWWNbLPbgauAs0S+h/BHoB7/z9OmAxcMHAhoe9MQM5RXrfB3q7RNp32LSf4AxWGHh9QHfV6YjVZqIfJonkrp4eL5dlGMwHtlhGtcDOKNvPQFMrYNtIkk7AM+AD0DLaOxvYDsz1ewYgZCrtL0dBOqS5FU+HvvD3eQDDXCLZe0rK4LVnqQLLdmEFYLFa7axXme+nA4eASdHeFsB7s+9Ls3bHFOAr0Bho5ZtCnJ5vJVLom4qrWolhWDLEW+CLy5qR6LFl1MVHw5nEMU2AhU77N3AA2JgwVcgYGynHgXte7AzAHu/MJcD6CEBOk89lyWDVTz6LZGsBhiXpZO8dxmxWKtEoa/vTXsjuwA+zoe4nvMAJqbrHp5612Kt2Gidy20hL6lwKIH/Lx8pUdl3mB8iG0vW8F09xHYARZufWXovOBrAZmGMSX7cJOyAwS0dFaDYdctTGxnjgZjSmYxaKVTOpscJeje0+wJ2wsdSwUw3WRiepcCdL6WMjZBxwLPq2wJn8fZU3ruV3SaQlfTWGNWOeWy9oggaJ1AtdfZ/m0IY0kaIfjv5eW91BOQTqXqvrNWZUv39WuV+mAsZ6b6hH5CrprB/PE3fYqSL0/wEoii/7reIAfwA4LocZGRNE4QAAAABJRU5ErkJggg=="/>
-            <p style="font-size: 11px;">Sign Up/ Log In</p>
+            <a href="/pages/user-login.html"><p style="font-size: 11px;">Sign Up/ Log In</p></a>
           </nav>
+<div class="firstSection">         
 <h1>What Order Should I Follow for My Skin Care Routine?</h1>
+<br>
 <table> 
     <tr>
-        <th>Morning Routine</th>
-        <th>Night Routine</th>
+        <th><h2>Morning</h2></th>
+        <th><h2>Night</h2></th>
     </tr>
     <tr>
         <th>Step 1: Cleanser</th>
@@ -81,9 +137,11 @@
         <th>Step 6: Retinol</th>
     </tr>   
 </table>
+</div> 
 <br>
 <br>
-<h5>More Details on the steps</h5><br>
+<section class="details">
+<h3>More Details on the steps</h3><br>
 <h5><ins>Morning Routine</ins></h5><br>
 <p><h6>Step 1: Cleanser</h6>
         • Why you need it: A thorough cleansing removes impurities like dirt, oil and environmental pollutants.<br>
@@ -143,6 +201,32 @@
 	• How to use it: To start, do this step just once or twice a week. Once your skin adjusts, you can use it more often. Even though you're using it at night, be sure to apply sunscreen each morning, as your skin will likely be extra sensitive.<br>
     *Important to note: Retinol isn't right for all skin types—make sure you do some research to determine if it's appropriate for you. Exercise caution if you have sensitive skin, and avoid it altogether if you're pregnant. 
     </p>
+  </section>
 
+  <!-- Footer -->
+<footer>
+  <section class="footer">
+      <div class="newsletter">
+          <h2>Sign Up for Our Monthly Newsletters</h2>
+          <p>Stay ahead of the latest beauty trends and products that enhances your beauty routine.</p>
+              <form>
+                  <input type="email" placeholder="Enter your email"> <input type="submit">
+              </form>
+      
+          </div>
+
+       <div class="footer-links">   
+      <ul>
+          <li class="link21"><a href="#">About Us</a></li>
+          <li class="link22"><a href="#">Contact Us</a></li>
+          <li class="link23"><a href="#">Careers</a></li>
+          <li class="link24"><a href="#">Privacy Policy</a></li>
+          <li class="link25"><a href="#">Sitemap</a></li>
+      </ul>
+  </div>
+
+
+  </section>
+</footer> 
 </body>
 </html>

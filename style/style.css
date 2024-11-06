@@ -1,9 +1,15 @@
+header {
+    margin-bottom: 0px;
+}
+
 .hero {
     display: flex;
     /* justify-content: space-between; */
     /* margin: 0 auto; */
     background-color: cadetblue;
     width: 100%;
+    padding-left: 150px;
+    margin-bottom: 0px;
 }
 
 
@@ -15,12 +21,17 @@ div.hero-heading {
 div.hero-image {
        width: 50%;
        float: right;
+    
    }
 
+
+
 .hero button {
-    background-color: bisque;
+    background-color: burlywood;
+    border-radius: 10px;  
     
 }
+
 
 
 .article-cards {
@@ -37,8 +48,11 @@ ul {
     list-style-type: none;
   }
   
+  /* Section 1   */
+
  .row2 {
     background-color: darkgray;
+    margin-bottom: 0px;
  } 
   
 
@@ -69,73 +83,65 @@ div.card-body2{
     width: 75%;
     height: 530px;
    
+/* Section 2 */
 }
 .topics {
-    display: flex;
-    justify-content: space-around;
-    justify-content: wrap;
     background-color:  palevioletred;
+    margin-bottom: 0px;
 }
 
 .topics2 {
     display: flex;
     justify-content: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-div.link1 {
-    width: 25%;
-    margin-left: auto;
 
+img.topic1 {
+    width:25%;
+    width: 300px;
+    height: 300px;
 }
 
-div.link2 {
-    width: 25%;
-    margin-left: auto;
+img.topic2 {
+    width:25%;
+    width: 300px;
+    height: 300px;
 }
 
-div.link3 {
-    width: 25%; 
-    margin-right: auto;
-    
-}
-div.link4 {
-    width: 25%; 
-    margin-right: auto;
-    
+img.topic3 {
+    width:25%;
+    width: 300px;
+    height: 300px;
 }
 
+img.topic4 {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+/* Section 3 */
 .top-reads {
-    display: grid;
-    grid-template-columns: 1fr 1 fr;
-    /* justify-content: center;
-    align-self: center; */
-    /* justify-content: space-around;
-    justify-content: wrap; */
+
     background-color: bisque;
-}
-
-
-ul li.link5 {
-    /* width: 25%; */
-    /* margin-left: auto; */
-
-}
-
-ul li.link6 {
-    width: 25%;
-    /* margin: 0 auto; */
-}
-
-ul li.link7 {
-    width: 25%; 
-    /* margin: auto; */
+    margin-bottom: 0px;
     
 }
-ul li.link8 {
-    width: 25%; 
-    /* margin-right: auto; */
-    
+
+.top-read2{
+    display: flex;
+    justify-content: wrap;
+    justify-content: space-around;
+    padding-left: 300px;
+    width: 600px;
+    height: 600px;
+    width: 60%;
+   
+}
+
+h1 .top-read2 {
+    color:black;
 }
 
 img.vitaminc {
@@ -161,3 +167,62 @@ img.apres {
     width: 300px;
     height: 300px;
 }
+
+/* Section 4 */
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+img.korean {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+img.cerave {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+img.celebrity {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+img.Nails {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+img.RevAir {
+    width:25%;
+    width: 300px;
+    height: 300px;
+}
+
+/* Footer */
+.footer {
+    background-color: blueviolet;
+   
+}
+
+div.newsletter{
+    
+    width: 50%;
+    float:left;
+    padding-left: 100px;
+
+}
+
+div.footer-links{
+    
+    width: 50%;
+    float: right;
+    padding-left: 100px;
+
+}
+
